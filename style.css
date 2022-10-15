@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;700&display=swap');
+
+body{
+    margin: 0px;
+}
+
+/* -----------------------------------------
+        NAVBAR
+-------------------------------------------- */
+
+a{
+    text-decoration: none;
+    color: #90908F;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 70px;
+}
+
+.active-link{
+    color: #000000;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+
+    margin: 50px 80px;
+}
+
+hr{
+    color: #000000;
+    background-color: #000000;
+    border: 1% solid #000000;
+    width: 350px;
+    margin-left: 380px;
+
+}
+
+/* -------------------------------------------------
+        MID SECTION
+----------------------------------------------------*/
+
+.left img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.right{
+    margin-right: 50px;
+}
+
+.mid-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top{
+    margin-top: -100px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: flex-end;
+    width: 850px;
+}
+
+h1{
+    font-size: 120px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 700;
+}
+
+span{
+    color: #FFFFFF;
+    -webkit-text-stroke: 3px #000000;   
+}
+
+h4{
+    font-size: 30px;
+    font-family: 'Source Serif Pro', serif;
+    color: #90908F;
+    font-weight: 300;
+    width: 100px;
+
+    margin-left: 50px;
+}
+
+.right-most{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 310px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* margin-left: 200px; */
+    height: 300px;
+    position: relative;
+    bottom: 100px;
+}
+
+
+button{
+    float: right;
+    margin-right: 110px;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 10px 50px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 18px;
+
+    border: 0px solid;
+    margin-top: -50px;
+    border-radius: 2px;
+}
+
+/* ----------------------------------
+        BOTTOM
+------------------------------------- */
+
+.bottom{
+    /* display: flex; */
+    /* width: 700px; */
+    /* margin-left: 400px; */
+}
